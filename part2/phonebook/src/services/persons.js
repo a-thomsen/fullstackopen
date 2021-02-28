@@ -34,6 +34,4 @@ const del = (id) => {
 }
 
 // eslint-disable-next-line
-export default {
-    getAll, create, update, del
-};
+export default { getAll, create, update, del };
