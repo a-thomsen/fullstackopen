@@ -1,27 +1,25 @@
-import React, { useState } from 'react'
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
-  const [ persons, setPersons] = useState([
-    { name: 'Arto Hellas' }
-  ]) 
-  const [ newName, setNewName ] = useState('')
-
+function App() {
   return (
-    <div>
-      <h2>Phonebook</h2>
-      <form>
-        <div>
-          name: <input />
-        </div>
-        <div>
-          <button type="submit">add</button>
-        </div>
-      </form>
-      <h2>Numbers</h2>
-      ...
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  )
-
+  );
 }
 
-export default App
+export default App;
