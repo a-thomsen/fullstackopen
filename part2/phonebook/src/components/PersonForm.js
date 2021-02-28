@@ -10,10 +10,10 @@ const PersonForm = ({onFormNameChange, onFormNumberChange, addName, newName, new
           Number: <input onChange={onFormNumberChange} value={newNumber}/>
         </div>
         <div>
-          <button type="submit">add</button>
+          <button type="submit">Add</button>
         </div>
       </form>
     )
 }
 
-export default PersonForm
+export default PersonForm;

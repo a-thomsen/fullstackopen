@@ -13,4 +13,4 @@ const Persons = ({data, filter, del}) => {
 }
 
 
-export default Persons
+export default Persons;
